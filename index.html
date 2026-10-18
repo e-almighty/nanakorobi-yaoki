@@ -1,0 +1,510 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#f8f6ef">
+  <meta name="description" content="日本営業協会 関西支部・七転び八起き会。明るい写真、立体的なだるま、動きのある見出しを備えたサイト構想です。">
+  <link rel="preload" as="image" href="./images/hero-01-business-cards.jpg">
+  <title>七転び八起き会｜日本営業協会 関西支部（サイト構想）</title>
+  <style>
+    :root{--ink:#101619;--ink2:#172125;--paper:#f4f0e8;--paper2:#e9e4d9;--white:#fffdf8;--acid:#c7f165;--orange:#ff704e;--muted:#a6b0ae;--line:rgba(255,255,255,.15);--max:1320px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:"Yu Gothic","Hiragino Kaku Gothic ProN","Noto Sans JP",Meiryo,sans-serif;line-height:1.6}button,a{font:inherit}a{color:inherit;text-decoration:none}button{cursor:pointer}::selection{background:var(--acid);color:var(--ink)}
+    .grain{position:fixed;inset:0;z-index:50;pointer-events:none;opacity:.12;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.35'/%3E%3C/svg%3E")}
+    .skip{position:absolute;top:-60px;left:12px;z-index:100;background:var(--acid);color:var(--ink);padding:10px 16px}.skip:focus{top:12px}
+    .wrap{width:min(calc(100% - 80px),var(--max));margin:auto}.eyebrow{display:flex;gap:12px;align-items:center;font-family:Arial,sans-serif;font-size:11px;font-weight:800;letter-spacing:.2em;text-transform:uppercase}.eyebrow:before{content:"";width:24px;height:2px;background:currentColor}
+    .mast{position:absolute;top:0;left:0;right:0;z-index:20;color:var(--white);border-bottom:1px solid var(--line)}.mast-inner{height:86px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;gap:13px;min-width:0}.brand-symbol{position:relative;display:grid;place-items:center;width:45px;height:45px;border:2px solid var(--acid);border-radius:50%;font-size:16px;font-weight:900;line-height:1;color:var(--acid)}.brand-symbol:after{content:"";position:absolute;right:-4px;bottom:-5px;width:12px;height:12px;border-radius:50%;background:var(--orange)}.brand-copy{display:flex;flex-direction:column;line-height:1.2;gap:4px;white-space:nowrap}.brand-copy small{font-size:10px;letter-spacing:.12em;color:#c6d0cc}.brand-copy strong{font-size:22px;letter-spacing:.06em}.desktop-nav{display:flex;align-items:center;gap:27px;font-size:13px;font-weight:700}.desktop-nav>a:not(.nav-cta){position:relative;padding:10px 0}.desktop-nav>a:not(.nav-cta):after{content:"";position:absolute;bottom:4px;left:0;width:100%;height:1px;background:var(--acid);transform:scaleX(0);transform-origin:left;transition:transform .25s}.desktop-nav>a:hover:after,.desktop-nav>a:focus-visible:after{transform:scaleX(1)}.nav-cta{background:var(--acid);color:var(--ink);padding:13px 18px;border-radius:2px;transition:transform .25s,background .25s}.nav-cta:hover{transform:translateY(-3px);background:#d8ff85}.menu-button{display:none;background:none;border:1px solid rgba(255,255,255,.4);color:var(--white);padding:8px 12px}
+    .hero{position:relative;overflow:hidden;min-height:800px;background:var(--ink);color:var(--white)}.hero:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 78% 45%,rgba(199,241,101,.14),transparent 23%),linear-gradient(115deg,transparent 55%,rgba(255,255,255,.025) 55.2%,transparent 55.4%);pointer-events:none}.hero-grid{position:absolute;inset:0;opacity:.32;background-image:linear-gradient(rgba(255,255,255,.055) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.055) 1px,transparent 1px);background-size:72px 72px;mask-image:linear-gradient(90deg,transparent,black 25%,black 80%,transparent)}.hero-inner{position:relative;padding-top:180px;padding-bottom:110px;display:grid;grid-template-columns:1.2fr .8fr;align-items:center;min-height:800px;gap:30px}.hero-kicker{color:var(--acid);margin:0 0 32px}.hero h1{font-size:clamp(70px,9vw,144px);line-height:.98;letter-spacing:-.09em;margin:0 0 32px;font-weight:900;white-space:nowrap}.hero h1 span{display:block}.hero h1 .second{color:var(--acid);font-size:.66em;letter-spacing:-.065em;margin-top:13px}.hero-copy{font-size:clamp(16px,1.6vw,21px);font-weight:700;line-height:1.9;max-width:660px;margin:0 0 42px}.hero-actions{display:flex;flex-wrap:wrap;gap:15px}.button{display:inline-flex;align-items:center;justify-content:space-between;gap:34px;padding:16px 21px;min-width:210px;border-radius:2px;font-size:14px;font-weight:800;transition:transform .28s,background .28s,color .28s}.button:hover{transform:translateY(-4px)}.button-primary{background:var(--acid);color:var(--ink)}.button-primary:hover{background:#e1ff9e}.button-line{border:1px solid rgba(255,255,255,.5);color:var(--white)}.button-line:hover{background:var(--white);color:var(--ink)}.button .arrow{font-size:21px;line-height:1}.hero-side{position:relative;align-self:stretch;display:flex;align-items:center;justify-content:center;min-width:0}.orbit{position:relative;width:min(100%,490px);aspect-ratio:1}.orbit-ring{position:absolute;inset:8%;border:1px solid rgba(199,241,101,.28);border-radius:50%;animation:rotate 40s linear infinite}.orbit-ring:nth-child(2){inset:22%;border-style:dashed;border-color:rgba(255,255,255,.25);animation-direction:reverse;animation-duration:55s}.orbit-ring:nth-child(3){inset:0;border-color:rgba(255,255,255,.11)}.orbit-seven,.orbit-eight{position:absolute;display:block;font-family:Arial,sans-serif;font-weight:900;line-height:1;letter-spacing:-.11em}.orbit-seven{top:19%;left:13%;font-size:clamp(170px,22vw,340px);color:transparent;-webkit-text-stroke:1px rgba(255,255,255,.35);transform:rotate(-8deg)}.orbit-eight{top:25%;right:8%;font-size:clamp(185px,24vw,365px);color:var(--acid);text-shadow:0 0 60px rgba(199,241,101,.2);animation:rise 5s ease-in-out infinite}.orbit-caption{position:absolute;bottom:4%;right:4%;font-size:12px;letter-spacing:.23em;text-transform:uppercase;color:#bfc9c1}.orb-dot{position:absolute;top:15%;right:19%;width:16px;height:16px;border-radius:50%;background:var(--orange);box-shadow:0 0 30px var(--orange);animation:pulse 2.5s infinite}.hero-bottom{position:absolute;bottom:30px;left:0;right:0;display:flex;justify-content:space-between;align-items:center;color:#aab7b2;font-family:Arial,sans-serif;font-size:11px;letter-spacing:.2em;text-transform:uppercase}.scroll-indicator{display:flex;align-items:center;gap:12px}.scroll-indicator:before{content:"";height:38px;width:1px;background:var(--acid)}
+    .ticker{overflow:hidden;background:var(--acid);border-bottom:1px solid #a6ca55}.ticker-track{display:flex;width:max-content;animation:marquee 26s linear infinite}.ticker span{display:inline-flex;align-items:center;gap:28px;padding:15px 28px;font-family:Arial,sans-serif;font-weight:900;font-size:14px;letter-spacing:.16em;white-space:nowrap}.ticker b{font-size:18px;color:var(--orange)}
+    section{scroll-margin-top:30px}.section-pad{padding:125px 0}.section-top{display:flex;align-items:end;justify-content:space-between;gap:30px;margin-bottom:58px}.section-top .eyebrow{color:#59711e}.section-top h2{font-size:clamp(42px,5vw,75px);line-height:1.14;letter-spacing:-.06em;margin:21px 0 0}.section-number{font-family:Arial,sans-serif;font-weight:900;font-size:14px;letter-spacing:.1em;color:#727b76}
+    .intro{background:var(--paper)}.intro-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:10vw;align-items:start}.intro-lead{font-size:clamp(26px,3.15vw,43px);font-weight:900;line-height:1.55;letter-spacing:-.055em;margin:0}.intro-lead em{font-style:normal;color:#718f30}.intro-body{padding-top:10px;font-size:17px;line-height:2.1;color:#42504b}.intro-body p:first-child{margin-top:0}.identity-tag{display:inline-flex;align-items:center;gap:8px;margin-top:22px;border:1px solid #bbc4b5;padding:9px 13px;font-size:12px;font-weight:800;letter-spacing:.05em}.identity-tag span{width:8px;height:8px;background:var(--orange);border-radius:50%}
+    .manifesto{overflow:hidden;background:var(--ink2);color:var(--white)}.manifesto .section-top .eyebrow{color:var(--acid)}.manifesto .section-number{color:#acbab4}.manifesto-grid{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);border-left:1px solid var(--line)}.pillar{position:relative;min-height:360px;padding:35px 32px 42px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);overflow:hidden;transition:background .35s}.pillar:hover{background:#202d2d}.pillar-num{font-family:Arial,sans-serif;color:var(--acid);font-size:14px;font-weight:900}.pillar-icon{display:block;height:85px;margin-top:31px;font-family:Arial,sans-serif;font-size:80px;line-height:1;color:transparent;-webkit-text-stroke:1px rgba(199,241,101,.85);font-weight:900;transition:transform .45s,color .45s}.pillar:hover .pillar-icon{transform:translate(10px,-9px) rotate(-7deg);color:var(--acid)}.pillar h3{font-size:29px;margin:24px 0 8px;letter-spacing:-.04em}.pillar p{color:#bac9c3;font-size:15px;line-height:1.9;max-width:310px;margin:0}.pillar .small-arrow{position:absolute;right:28px;top:28px;color:var(--acid);font-size:24px;transition:transform .3s}.pillar:hover .small-arrow{transform:translate(5px,-5px)}.concept-note{font-size:11px;color:#9ba9a3;margin:18px 0 0}
+    .statement{background:var(--orange);padding:100px 0;overflow:hidden}.statement-row{display:flex;align-items:center;justify-content:space-between;gap:35px}.statement small{display:block;font-family:Arial,sans-serif;font-size:12px;font-weight:900;letter-spacing:.23em;text-transform:uppercase}.statement h2{font-size:clamp(47px,7.8vw,110px);letter-spacing:-.09em;line-height:1.08;margin:20px 0 0}.statement-mark{font-family:Arial,sans-serif;font-size:clamp(130px,20vw,300px);font-weight:900;line-height:.8;letter-spacing:-.14em;transform:rotate(-10deg);opacity:.78;white-space:nowrap}
+    .journey{background:var(--paper)}.journey-intro{color:#44514c;font-size:17px;max-width:600px;margin:0 0 45px;line-height:2}.journey-line{display:grid;grid-template-columns:repeat(4,1fr);position:relative;gap:12px}.journey-line:before{content:"";position:absolute;top:22px;left:7%;right:7%;height:2px;background:#a7b4a0}.step{position:relative;padding-top:60px}.step-dot{position:absolute;z-index:1;top:11px;left:0;width:24px;height:24px;border:5px solid var(--paper);border-radius:50%;background:var(--ink);box-shadow:0 0 0 1px var(--ink)}.step:last-child .step-dot{background:var(--orange);box-shadow:0 0 0 1px var(--orange)}.step span{font-family:Arial,sans-serif;font-weight:900;font-size:11px;letter-spacing:.15em;color:#728268}.step h3{margin:9px 0;font-size:23px}.step p{margin:0;padding-right:20px;color:#52605a;font-size:14px;line-height:1.85}
+    .updates{background:var(--paper2)}.updates-layout{display:grid;grid-template-columns:.75fr 1.25fr;gap:6vw}.updates .section-top{display:block;margin:0}.updates .section-top h2{font-size:clamp(41px,4vw,65px)}.updates-intro{font-size:15px;color:#54615b;line-height:1.9;max-width:330px}.updates-list{border-top:1px solid #aeb8ac}.update{display:grid;grid-template-columns:105px 1fr auto;gap:22px;align-items:center;padding:29px 8px;border-bottom:1px solid #aeb8ac;transition:padding .3s,background .3s}.update:hover{padding-left:19px;background:rgba(255,255,255,.35)}.update .type{font-size:11px;font-weight:800;letter-spacing:.1em;color:#647e26}.update h3{font-size:19px;line-height:1.5;margin:0}.update .arrow{font-size:23px}.placeholder{font-size:12px;color:#65736c;margin-top:17px}
+    .closing{background:var(--ink);color:var(--white);padding:110px 0 50px;overflow:hidden}.closing .eyebrow{color:var(--acid)}.closing h2{font-size:clamp(60px,10vw,145px);line-height:1.04;letter-spacing:-.09em;margin:25px 0 32px}.closing h2 span{color:var(--acid)}.closing-copy{font-size:18px;color:#c1cec7;max-width:610px;line-height:1.95;margin-bottom:40px}.closing .button-primary{min-width:245px}.foot{border-top:1px solid var(--line);margin-top:115px;padding-top:32px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:30px;align-items:end}.foot strong{font-size:23px}.foot small{display:block;color:#a3b0aa;font-size:11px;margin-top:8px}.foot-links{display:flex;flex-wrap:wrap;gap:26px;font-size:12px;color:#dce4df}.foot-links a:hover{color:var(--acid)}.draft-label{position:fixed;z-index:30;bottom:14px;right:14px;padding:8px 11px;background:rgba(16,22,25,.8);color:#fff;border:1px solid rgba(255,255,255,.3);backdrop-filter:blur(8px);font-family:Arial,sans-serif;font-size:10px;letter-spacing:.11em;text-transform:uppercase;pointer-events:none}.sparkle{position:fixed;z-index:90;pointer-events:none;width:5px;height:5px;background:var(--acid);border-radius:50%;box-shadow:0 0 10px var(--acid),0 0 18px var(--acid);animation:spark .65s ease-out forwards}.lift{display:inline-block;transition:transform .3s}.lift:hover{transform:translateY(-5px)}.reveal{opacity:0;transform:translateY(28px);transition:opacity .8s ease,transform .8s cubic-bezier(.2,.7,.2,1)}.reveal.is-visible{opacity:1;transform:none}
+    @keyframes rotate{to{transform:rotate(360deg)}}@keyframes rise{0%,100%{transform:translateY(10px)}50%{transform:translateY(-14px)}}@keyframes pulse{50%{transform:scale(1.6);opacity:.65}}@keyframes marquee{to{transform:translateX(-50%)}}@keyframes spark{to{transform:translate(var(--dx),var(--dy)) scale(.1);opacity:0}}
+    @media(max-width:1050px){.desktop-nav{gap:15px;font-size:12px}.hero-inner{grid-template-columns:1.1fr .9fr}.hero h1{font-size:clamp(60px,8.8vw,95px)}.pillar{padding:30px 24px}.pillar h3{font-size:24px}}
+    @media(max-width:780px){.wrap{width:min(calc(100% - 38px),var(--max))}.mast-inner{height:72px}.brand-copy strong{font-size:18px}.brand-copy small{font-size:9px}.brand-symbol{width:39px;height:39px}.menu-button{display:block}.desktop-nav{display:none;position:absolute;left:0;right:0;top:72px;background:#111b1e;padding:15px 20px 24px;border-bottom:1px solid var(--line);flex-direction:column;align-items:stretch;gap:0}.desktop-nav.open{display:flex}.desktop-nav a{padding:12px 8px!important}.desktop-nav .nav-cta{text-align:center;margin-top:8px}.hero{min-height:790px}.hero-inner{display:block;min-height:790px;padding-top:145px;padding-bottom:100px}.hero h1{font-size:clamp(65px,14vw,105px)}.hero h1 .second{margin-top:8px}.hero-copy{max-width:520px}.hero-side{position:absolute;right:-120px;bottom:-26px;width:450px;height:450px;opacity:.45;pointer-events:none}.orbit-seven{font-size:255px}.orbit-eight{font-size:280px}.hero-content{position:relative;z-index:2}.section-pad{padding:85px 0}.intro-grid,.updates-layout{grid-template-columns:1fr;gap:20px}.intro-body{padding-top:0}.manifesto-grid{grid-template-columns:1fr}.pillar{min-height:255px}.pillar-icon{margin-top:14px;height:60px;font-size:65px}.pillar h3{margin-top:15px}.statement{padding:75px 0}.statement-mark{font-size:150px}.journey-line{grid-template-columns:repeat(2,1fr);gap:35px}.journey-line:before{display:none}.step{padding-top:48px}.foot{margin-top:80px}.updates .section-top{margin-bottom:30px}}
+    @media(max-width:520px){.hero{min-height:725px}.hero-inner{min-height:725px;padding-top:133px}.hero h1{font-size:clamp(60px,16vw,80px)}.hero h1 .second{font-size:.68em}.hero-copy{font-size:16px;line-height:1.8}.hero-actions{display:flex;flex-direction:column;align-items:flex-start}.button{min-width:232px}.hero-side{width:360px;height:360px;right:-140px;bottom:0}.hero-bottom{font-size:9px}.section-top h2{font-size:43px}.intro-lead{font-size:27px}.intro-body{font-size:15px}.statement-row{align-items:flex-end}.statement-mark{font-size:100px}.statement h2{font-size:48px}.journey-line{grid-template-columns:1fr;gap:23px}.step{padding-top:0;padding-left:43px}.step-dot{top:5px}.update{grid-template-columns:1fr auto;gap:6px 15px}.update .type{grid-column:1 / -1}.update h3{font-size:17px}.closing h2{font-size:60px}.closing-copy{font-size:16px}.foot{align-items:start;flex-direction:column}.draft-label{font-size:9px;right:8px;bottom:8px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.orbit-ring,.orbit-eight,.orb-dot,.ticker-track,.sparkle{animation:none!important}.reveal{opacity:1;transform:none;transition:none}.button,.pillar-icon,.lift,.update{transition:none}}
+    .hero h1 span{transition:transform .35s cubic-bezier(.2,.7,.2,1)}
+    .hero h1 span:hover{transform:translateX(12px)}
+    .brand-copy strong{transition:transform .3s}
+    .brand:hover .brand-copy strong{transform:translateX(4px)}
+    @media(prefers-reduced-motion:reduce){.hero h1 span,.brand-copy strong{transition:none}.hero h1 span:hover,.brand:hover .brand-copy strong{transform:none}}
+    .brand-copy small{font-size:12px;font-weight:800;color:var(--acid);letter-spacing:.06em}
+    .hero:before{background-image:linear-gradient(90deg,rgba(8,16,19,.96) 0%,rgba(8,16,19,.83) 39%,rgba(8,16,19,.34) 100%),url('./images/hero-kansai.jpg');background-size:cover;background-position:center}
+    .hero-grid{opacity:.14}
+    .hero-side{opacity:.72}
+    .branch-callout{display:inline-flex;align-items:center;gap:13px;margin:0 0 25px;padding:11px 15px;border-left:4px solid var(--acid);background:rgba(8,16,19,.67);backdrop-filter:blur(8px);font-size:clamp(17px,1.8vw,24px);font-weight:900;letter-spacing:.05em;line-height:1.35;box-shadow:0 10px 35px rgba(0,0,0,.16)}
+    .branch-callout strong{color:var(--acid)}
+    .hero-kicker{margin-bottom:20px}
+    .about-photo{position:relative;overflow:hidden;margin:65px 0 0;height:clamp(280px,34vw,470px);background:#ddd}
+    .about-photo img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 43%;transition:transform .8s cubic-bezier(.2,.7,.2,1)}
+    .about-photo:hover img{transform:scale(1.04)}
+    .about-photo figcaption{position:absolute;bottom:16px;left:18px;background:rgba(16,22,25,.76);color:#fff;padding:8px 12px;font-size:11px;letter-spacing:.08em}
+    .pillar{min-height:0;padding:0 0 32px}
+    .pillar-num{display:block;padding:24px 26px 0}
+    .pillar-photo{display:block;width:100%;height:clamp(175px,17vw,235px);object-fit:cover;margin-top:20px;filter:saturate(.86);transition:transform .55s,filter .55s}
+    .pillar:hover .pillar-photo{transform:scale(1.035);filter:saturate(1.04)}
+    .pillar-icon{display:none}
+    .pillar h3{padding:0 26px;margin:22px 0 7px}
+    .pillar p{padding:0 26px;max-width:none}
+    .pillar .small-arrow{top:19px;right:25px}
+    .closing{position:relative;background-image:linear-gradient(90deg,rgba(10,20,23,.95) 0%,rgba(10,20,23,.83) 45%,rgba(10,20,23,.28) 100%),url('./images/closing-kansai.jpg');background-size:cover;background-position:center}
+    .closing>.wrap{position:relative}
+    @media(max-width:780px){.brand-copy small{font-size:10px}.hero:before{background-position:62% center}.hero-side{opacity:.46}.branch-callout{font-size:17px}.pillar-photo{height:245px}.about-photo{margin-top:40px;height:330px}}
+    @media(max-width:520px){.brand-copy small{font-size:9px}.hero:before{background-image:linear-gradient(90deg,rgba(8,16,19,.89),rgba(8,16,19,.57)),url('./images/hero-kansai.jpg');background-position:67% center}.branch-callout{font-size:15px;gap:8px;margin-bottom:18px;padding:10px 11px}.hero-kicker{font-size:9px;margin-bottom:19px}.about-photo{height:280px}.about-photo img{object-position:62% center}.closing{background-position:65% center}}
+    @media(prefers-reduced-motion:reduce){.about-photo img,.pillar-photo{transition:none}.about-photo:hover img,.pillar:hover .pillar-photo{transform:none}}
+    .cursor-halo{position:fixed;z-index:89;left:0;top:0;width:36px;height:36px;border:1.5px solid rgba(199,241,101,.9);border-radius:50%;background:radial-gradient(circle,rgba(199,241,101,.2),transparent 65%);box-shadow:0 0 15px rgba(199,241,101,.55),inset 0 0 12px rgba(199,241,101,.2);pointer-events:none;opacity:0;transform:translate(-50%,-50%);transition:opacity .18s, width .22s,height .22s,border-color .22s}
+    .cursor-halo.visible{opacity:1}
+    .cursor-halo.is-hovered{width:52px;height:52px;border-color:var(--orange);box-shadow:0 0 20px rgba(255,112,78,.65),inset 0 0 14px rgba(255,112,78,.25)}
+    .sparkle{position:fixed;z-index:90;pointer-events:none;width:auto;height:auto;border-radius:0;background:none;box-shadow:none;color:var(--spark-color);font-family:Arial,sans-serif;font-size:var(--spark-size);line-height:1;text-shadow:0 0 6px currentColor,0 0 15px currentColor;animation:sparkle-burst .85s ease-out forwards;will-change:transform,opacity}
+    @keyframes sparkle-burst{0%{opacity:1;transform:translate(-50%,-50%) scale(.6) rotate(0deg)}35%{opacity:1;transform:translate(-50%,-50%) scale(1.15) rotate(45deg)}100%{opacity:0;transform:translate(calc(-50% + var(--dx)),calc(-50% + var(--dy))) scale(.2) rotate(130deg)}}
+    @media(prefers-reduced-motion:reduce){.cursor-halo,.sparkle{display:none!important}}
+    /* v0.4: bright five-scene crossfade and a seven-fall daruma */
+    .sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+    .mast{color:var(--ink);background:rgba(255,253,248,.87);border-bottom:1px solid rgba(16,22,25,.13);backdrop-filter:blur(16px)}
+    .brand-symbol{border-color:#d84c3d;color:#c94336}.brand-symbol:after{background:#f2b655}.brand-copy small{color:#506f2c}.menu-button{border-color:#68766c;color:var(--ink)}
+    .desktop-nav>a:not(.nav-cta):after{background:#d84c3d}.nav-cta{background:#d9f586}.nav-cta:hover{background:#c7ef69}
+    .hero{background:#f8f6ef;color:var(--ink)}.hero:before{display:none}.hero-grid{z-index:2;opacity:.08;mask-image:linear-gradient(90deg,black,transparent 70%)}
+    .hero-slides,.hero-wash{position:absolute;inset:0;pointer-events:none}.hero-slides{z-index:0;background:#e9eee8}.hero-wash{z-index:1;background:linear-gradient(90deg,rgba(255,252,245,.98) 0%,rgba(255,252,245,.93) 27%,rgba(255,252,245,.78) 44%,rgba(255,252,245,.2) 72%,rgba(255,252,245,.08) 100%)}
+    .hero-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center center;opacity:0;transform:scale(1.045);transition:opacity 1.8s ease,transform 7s ease;will-change:opacity,transform}.hero-photo.is-active{opacity:1;transform:scale(1);z-index:1}
+    .hero-inner{z-index:3;grid-template-columns:minmax(0,1.25fr) minmax(280px,.75fr);min-height:800px;padding-top:170px;padding-bottom:120px}.hero-content{position:relative;z-index:2}
+    .branch-callout{color:#1a2924;background:rgba(255,253,248,.85);border-left-color:#d84c3d;box-shadow:0 12px 35px rgba(36,63,55,.1)}.branch-callout strong{color:#bd3e34}.hero-kicker{color:#426a38}.hero h1 .second{color:#d84c3d}.hero-copy{color:#233a35;text-shadow:0 1px 0 rgba(255,255,255,.5)}
+    .hero .button-primary{background:#d84c3d;color:#fff}.hero .button-primary:hover{background:#ae382f}.hero .button-line{color:#18332e;border-color:#31574b;background:rgba(255,255,255,.65)}.hero .button-line:hover{background:#17352e;color:#fff}
+    .hero-side{opacity:1;justify-content:flex-end}.daruma-panel{width:min(100%,310px);margin-left:auto;padding:18px 20px 20px;border:1px solid rgba(255,255,255,.85);border-radius:20px;background:rgba(255,253,248,.76);backdrop-filter:blur(15px);box-shadow:0 22px 55px rgba(29,63,57,.17);text-align:center;transform:translateY(105px)}.daruma-eyebrow{display:block;color:#687a6e;font:800 10px/1.4 Arial,sans-serif;letter-spacing:.19em;text-transform:uppercase}.daruma-stage{height:237px;display:flex;align-items:flex-end;justify-content:center;position:relative}.daruma-stage:before{content:"";position:absolute;bottom:3px;width:190px;height:34px;background:rgba(47,64,56,.14);filter:blur(14px);border-radius:50%}.daruma-figure{position:relative;width:210px;height:235px;transform-origin:50% 87%;transition:transform .48s cubic-bezier(.22,.65,.28,1);filter:drop-shadow(0 10px 10px rgba(87,43,34,.12))}.daruma-figure.fall-left{transform:translate(-18px,10px) rotate(-37deg)}.daruma-figure.fall-right{transform:translate(18px,10px) rotate(37deg)}.daruma-figure.rise{transform:translate(0,0) rotate(0);transition-duration:.72s;transition-timing-function:cubic-bezier(.16,1.55,.36,1)}
+    .daruma-stage{margin-bottom:28px}.daruma-name{margin:7px 0 2px;color:#293e38;font-size:16px;font-weight:900;letter-spacing:.03em}.daruma-status{margin:0;min-height:1.6em;color:#be4438;font-size:12px;font-weight:800}.fall-dots{display:flex;justify-content:center;gap:7px;margin-top:12px}.fall-dots span{width:9px;height:9px;border:1px solid #c9584b;border-radius:50%;background:transparent;transition:background .3s,transform .3s}.fall-dots span.done{background:#d84c3d;transform:scale(1.15)}
+    .hero-bottom{z-index:4;color:#34554b;letter-spacing:.11em}.slide-controls{display:flex;align-items:center;gap:13px;padding:7px 11px 7px 0;border-radius:40px;background:rgba(255,253,248,.72);backdrop-filter:blur(9px)}.slide-label{font:800 10px/1 Arial,sans-serif;letter-spacing:.15em;white-space:nowrap}.slide-label strong{font-size:15px;color:#bd4436}.slide-dots{display:flex;gap:5px}.slide-dot{width:34px;height:28px;border:0;background:transparent;padding:8px 2px}.slide-dot:before{content:"";display:block;width:100%;height:4px;border-radius:5px;background:#9caea5;transition:background .3s,transform .3s}.slide-dot.is-active:before,.slide-dot:hover:before{background:#d84c3d;transform:scaleY(1.45)}.slide-toggle{width:30px;height:28px;border:1px solid #8b9a8f;border-radius:50%;background:rgba(255,255,255,.65);color:#27433b;font-size:11px;line-height:1}.slide-toggle:hover{background:#fff}.scroll-indicator:before{background:#d84c3d}
+    .hero-photo-note{padding:8px 10px;background:rgba(255,253,248,.68);font-size:10px;font-weight:700;letter-spacing:.02em;white-space:nowrap}
+    @media(max-width:780px){.desktop-nav{background:rgba(255,253,248,.98);border-bottom:1px solid #ccd2c8;color:var(--ink)}.hero-inner{display:flex;flex-direction:column;align-items:stretch;min-height:0;padding-top:145px;padding-bottom:130px;gap:30px}.hero-side{position:relative;right:auto;bottom:auto;width:100%;height:auto;opacity:1;justify-content:flex-start;pointer-events:auto}.daruma-panel{margin-left:0;width:260px;transform:none}.daruma-stage{height:185px}.daruma-figure{width:168px;height:188px}.hero-wash{background:linear-gradient(90deg,rgba(255,252,245,.96),rgba(255,252,245,.72) 57%,rgba(255,252,245,.28))}.hero-photo{object-position:60% center}}
+    @media(max-width:520px){.hero{min-height:0}.hero-inner{min-height:0;padding-top:130px;padding-bottom:145px}.hero h1{font-size:clamp(54px,15vw,76px)}.hero-copy{font-size:15px}.hero-actions{gap:10px}.hero .button{min-width:210px;padding:12px 16px}.hero-side{margin-top:5px}.daruma-panel{width:215px;padding:12px 13px}.daruma-stage{height:142px}.daruma-figure{width:131px;height:145px}.daruma-name{font-size:13px}.daruma-status{font-size:11px}.fall-dots{gap:5px;margin-top:8px}.fall-dots span{width:7px;height:7px}.hero-wash{background:linear-gradient(90deg,rgba(255,252,245,.98),rgba(255,252,245,.88) 58%,rgba(255,252,245,.46))}.hero-bottom{bottom:18px;align-items:flex-start;flex-direction:column;gap:5px}.slide-controls{gap:6px}.slide-label{font-size:8px}.slide-label strong{font-size:12px}.slide-dot{width:20px}.hero-photo-note{font-size:9px}}
+    @media(prefers-reduced-motion:reduce){.hero-photo{transition:none;transform:none}.daruma-figure{transition:none}.fall-dots span{transition:none}.slide-toggle{display:none}}
+    .cursor-halo{border-color:rgba(216,76,61,.9);background:radial-gradient(circle,rgba(216,76,61,.13),transparent 65%);box-shadow:0 0 15px rgba(216,76,61,.46),inset 0 0 12px rgba(216,76,61,.16)}
+    .slide-story{color:#9d4035;font-size:11px;font-weight:900;letter-spacing:.02em;white-space:nowrap;min-width:10em}
+    @media(min-width:781px){.hero-wash{background:linear-gradient(90deg,rgba(255,252,245,.98) 0%,rgba(255,252,245,.91) 27%,rgba(255,252,245,.60) 45%,rgba(255,252,245,.12) 68%,rgba(255,252,245,.04) 100%)}.daruma-panel{width:250px;padding:12px 13px 15px;transform:translateY(145px)}.daruma-eyebrow{font-size:8px}.daruma-stage{height:180px;margin-bottom:15px}.daruma-figure{width:162px;height:181px}.daruma-name{font-size:13px}.daruma-status{font-size:10px}.fall-dots{gap:5px;margin-top:7px}.fall-dots span{width:7px;height:7px}}
+    @media(max-width:520px){.slide-story{display:none}}
+    /* v0.6 — daylight palette and a layered CSS 3D daruma */
+    .manifesto{background:#e9f2e8;color:#18332b}
+    .manifesto .section-top .eyebrow{color:#527447}
+    .manifesto .section-number{color:#61766b}
+    .manifesto-grid{border-top-color:#c5d7ca;border-left-color:#c5d7ca}
+    .pillar{background:rgba(255,255,255,.73);border-right-color:#c5d7ca;border-bottom-color:#c5d7ca}
+    .pillar:hover{background:#fffdf8}
+    .pillar-num,.pillar .small-arrow{color:#bb4d3c}
+    .pillar h3{color:#18332b}
+    .pillar p{color:#435d50}
+    .concept-note{color:#546e60}
+    .closing{color:#17372f;background-image:linear-gradient(90deg,rgba(255,253,247,.97) 0%,rgba(255,253,247,.91) 38%,rgba(255,253,247,.66) 58%,rgba(255,253,247,.08) 100%),url('./images/closing-daylight.jpg');background-position:center}
+    .closing .eyebrow{color:#527447}
+    .closing h2 span{color:#c94c3b}
+    .closing-copy{color:#2d5144}
+    .foot{border-top-color:rgba(30,71,57,.24)}
+    .foot small,.foot-links{color:#37584c}
+    .foot-links a:hover{color:#be4739}
+    .draft-label{background:rgba(255,253,248,.88);color:#35584a;border-color:#aac5ad}
+    .hero .button-line:hover{background:#eaf3e6;color:#17352e}
+    .daruma-panel{background:rgba(255,253,248,.83)}
+    .daruma-stage{perspective:660px;perspective-origin:50% 45%;isolation:isolate}
+    .daruma-stage:before{width:155px;height:25px;bottom:0;background:rgba(80,54,42,.23);filter:blur(11px);transition:transform .55s,opacity .55s}
+    .daruma-rig{position:relative;width:210px;height:235px;flex:none;transform-style:preserve-3d;transform-origin:50% 88%;transform:translate3d(0,0,0) rotateX(0) rotateY(0) rotateZ(0);transition:transform .65s cubic-bezier(.24,.66,.24,1);will-change:transform}
+    .daruma-depth{position:absolute;inset:5% 10% 2%;border-radius:49% 49% 38% 38% / 47% 47% 25% 25%;border:2px solid rgba(132,28,25,.35);background:radial-gradient(ellipse at 25% 25%,#f47559 0%,#d84237 45%,#a8262b 83%,#7f242a 100%);box-shadow:inset -15px -8px 25px rgba(77,15,18,.27),inset 9px 6px 18px rgba(255,211,153,.24);backface-visibility:visible}
+    .daruma-depth-one{transform:translateZ(-8px)}
+    .daruma-depth-two{transform:translateZ(-23px);filter:brightness(.92)}
+    .daruma-depth-three{transform:translateZ(-38px);filter:brightness(.80)}
+    .daruma-figure{position:absolute;inset:0;width:100%;height:100%;transform:translateZ(17px)!important;transform-origin:center;transition:none;filter:drop-shadow(0 8px 10px rgba(85,27,23,.20));backface-visibility:hidden}
+    .daruma-rig.fall-left{transform:translate3d(-17px,10px,0) rotateX(-9deg) rotateY(-23deg) rotateZ(-35deg)}
+    .daruma-rig.fall-right{transform:translate3d(17px,10px,0) rotateX(-9deg) rotateY(23deg) rotateZ(35deg)}
+    .daruma-rig.fall-back{transform:translate3d(0,21px,-27px) rotateX(-65deg) rotateY(5deg) rotateZ(-3deg)}
+    .daruma-rig.fall-back-left{transform:translate3d(-14px,19px,-17px) rotateX(-51deg) rotateY(-20deg) rotateZ(-23deg)}
+    .daruma-rig.fall-back-right{transform:translate3d(14px,19px,-17px) rotateX(-51deg) rotateY(20deg) rotateZ(23deg)}
+    .daruma-rig.fall-front{transform:translate3d(0,20px,18px) rotateX(47deg) rotateY(-9deg) rotateZ(4deg)}
+    .daruma-rig.fall-back-deep{transform:translate3d(0,24px,-34px) rotateX(-73deg) rotateY(-16deg) rotateZ(8deg)}
+    .daruma-rig.rise{transform:translate3d(0,0,0) rotateX(0) rotateY(0) rotateZ(0);transition-duration:.82s;transition-timing-function:cubic-bezier(.16,1.45,.35,1)}
+    @media(min-width:781px){.daruma-rig{width:162px;height:181px}}
+    @media(max-width:780px){.daruma-rig{width:168px;height:188px}.closing{background-position:63% center}}
+    @media(max-width:520px){.daruma-rig{width:131px;height:145px}.closing{background-image:linear-gradient(90deg,rgba(255,253,247,.97),rgba(255,253,247,.80) 66%,rgba(255,253,247,.32)),url('./images/closing-daylight.jpg');background-position:70% center}}
+    @media(prefers-reduced-motion:reduce){.daruma-rig,.daruma-stage:before{transition:none!important}}
+    /* v0.7 — the closing statement also tells a four-photo daylight story */
+    .closing{isolation:isolate;background:#edf5f5;background-image:none}
+    .closing-slides,.closing-wash{position:absolute;inset:0;pointer-events:none}
+    .closing-slides{z-index:0;overflow:hidden;background:#e5f0f4}
+    .closing-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center center;opacity:0;transform:scale(1.045);transition:opacity 1.7s ease,transform 7s ease;will-change:opacity,transform}
+    .closing-photo.is-active{opacity:1;transform:scale(1);z-index:1}
+    .closing-wash{z-index:2;background:linear-gradient(90deg,rgba(255,253,247,.98) 0%,rgba(255,253,247,.94) 31%,rgba(255,253,247,.75) 50%,rgba(255,253,247,.22) 75%,rgba(255,253,247,.07) 100%)}
+    .closing>.wrap{z-index:3}
+    .closing-controls{display:flex;align-items:center;gap:13px;width:max-content;max-width:100%;margin-top:27px;padding:8px 12px;border:1px solid rgba(50,90,72,.18);border-radius:30px;background:rgba(255,253,248,.78);backdrop-filter:blur(8px);color:#315649}
+    .closing-count{font:800 11px/1 Arial,sans-serif;letter-spacing:.12em;white-space:nowrap}.closing-count strong{color:#bd4739;font-size:14px}
+    .closing-dots{display:flex;gap:5px}.closing-dot{width:28px;height:27px;padding:8px 2px;border:0;background:transparent}.closing-dot:before{content:"";display:block;width:100%;height:4px;border-radius:5px;background:#9bb5a6;transition:background .3s,transform .3s}.closing-dot.is-active:before,.closing-dot:hover:before{background:#d84c3d;transform:scaleY(1.4)}
+    .closing-toggle{width:27px;height:27px;border:1px solid #8ba999;border-radius:50%;background:rgba(255,255,255,.68);color:#315649;font-size:10px;line-height:1}
+    .closing-photo-note{font-size:11px;font-weight:700;color:#45655a;margin:14px 0 0}
+    @media(max-width:780px){.closing-photo{object-position:65% center}.closing-wash{background:linear-gradient(90deg,rgba(255,253,247,.98),rgba(255,253,247,.86) 60%,rgba(255,253,247,.36))}}
+    @media(max-width:520px){.closing-photo{object-position:72% center}.closing-wash{background:linear-gradient(90deg,rgba(255,253,247,.98),rgba(255,253,247,.91) 67%,rgba(255,253,247,.55))}.closing-controls{gap:8px}.closing-dot{width:21px}.closing-count{font-size:9px}}
+    @media(prefers-reduced-motion:reduce){.closing-photo{transition:none;transform:none}.closing-toggle{display:none}}
+    /* v1.0 — three self-righting daruma companions follow the pointer */
+    .cursor-halo,.sparkle{display:none!important}
+    .cursor-daruma{position:fixed;top:0;left:0;z-index:100;width:38px;height:44px;pointer-events:none;opacity:0;transform:translate3d(-100px,-100px,0);filter:drop-shadow(0 5px 4px rgba(73,37,30,.25));will-change:transform;transition:opacity .2s ease}
+    .cursor-daruma.is-visible{opacity:.98}
+    .cursor-daruma-medium{width:29px;height:34px;z-index:99}
+    .cursor-daruma-small{width:21px;height:25px;z-index:98}
+    .cursor-daruma-medium.is-visible{opacity:.91}
+    .cursor-daruma-small.is-visible{opacity:.84}
+    .cursor-daruma svg{display:block;width:100%;height:100%;transition:scale .22s ease}
+    .cursor-daruma.is-over-link svg{scale:1.16}
+    @media(min-width:781px){.closing-photo:not(:first-child){object-position:78% center}}
+    @media(max-width:780px){.closing-photo:not(:first-child){object-position:83% center}}
+    @media(max-width:520px){.closing-photo:not(:first-child){object-position:88% center}}
+    @media(hover:none),(pointer:coarse),(prefers-reduced-motion:reduce){.cursor-daruma{display:none!important}}
+    /* v0.9 — punctuation-free display headlines with a staggered hover bounce */
+    .kinetic-title{position:relative;width:fit-content;max-width:100%;--title-accent:#d84c3d}
+    .kinetic-title .title-char,.hero h1.kinetic-title .title-char{display:inline-block;transform-origin:50% 85%;transition:none;will-change:transform}
+    .hero h1.kinetic-title > span:hover,.hero h1.kinetic-title .title-char:hover{transform:none}
+    .kinetic-title::after{content:"";position:absolute;left:0;bottom:-.11em;width:100%;height:.055em;min-height:3px;border-radius:20px;background:var(--title-accent);transform:scaleX(0);transform-origin:left;transition:transform .65s cubic-bezier(.16,1,.3,1);pointer-events:none}
+    .statement .kinetic-title{--title-accent:#fff3bd}
+    .closing h2.kinetic-title > .title-char{color:#17372f}
+    .closing h2.kinetic-title .closing-accent .title-char{color:#c94c3b}
+    /* v1.1 — a soft daylight team photograph under the orange statement */
+    .statement{position:relative;isolation:isolate;background:#ee714e}
+    .statement::before,.statement::after{content:"";position:absolute;inset:0;pointer-events:none}
+    .statement::before{z-index:-2;background:url('./images/hero-05-team-together.jpg') center 46% / cover no-repeat;opacity:.36}
+    .statement::after{z-index:-1;background:linear-gradient(90deg,rgba(183,64,42,.74) 0%,rgba(206,72,47,.61) 47%,rgba(226,94,59,.45) 100%)}
+    .statement-row{position:relative;z-index:1}
+    .statement h2,.statement small,.statement-mark{text-shadow:0 2px 12px rgba(82,26,18,.19)}
+    @keyframes title-bounce{0%{transform:translate3d(0,0,0) rotate(0) scale(1)}28%{transform:translate3d(0,-.19em,0) rotate(-7deg) scale(1.13)}52%{transform:translate3d(0,.035em,0) rotate(4deg) scale(.97)}72%{transform:translate3d(0,-.065em,0) rotate(-2deg) scale(1.03)}100%{transform:translate3d(0,0,0) rotate(0) scale(1)}}
+    @media(hover:hover) and (prefers-reduced-motion:no-preference){.kinetic-title:hover .title-char{animation:title-bounce .78s cubic-bezier(.2,.72,.25,1) both;animation-delay:calc(var(--i)*38ms)}.kinetic-title:hover::after{transform:scaleX(1)}}
+    @media(prefers-reduced-motion:reduce){.kinetic-title .title-char{will-change:auto}.kinetic-title::after{transition:none}}
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">本文へ移動</a>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="mast">
+    <div class="wrap mast-inner">
+      <a class="brand" href="#top" aria-label="七転び八起き会 トップへ">
+        <span class="brand-symbol" aria-hidden="true">七</span>
+        <span class="brand-copy"><small>日本営業協会 関西支部</small><strong>七転び八起き会</strong></span>
+      </a>
+      <button class="menu-button" type="button" aria-label="メニューを開く" aria-controls="site-nav" aria-expanded="false">MENU ☰</button>
+      <nav id="site-nav" class="desktop-nav" aria-label="メインメニュー">
+        <a href="#about">七転び八起き会とは</a><a href="#vision">活動構想</a><a href="#steps">参加のイメージ</a><a href="#updates">お知らせ</a><a class="nav-cta" href="#contact">つながる ↗</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section id="top" class="hero" aria-labelledby="hero-title">
+      <div class="hero-slides" aria-hidden="true">
+        <img class="hero-photo is-active" src="./images/hero-01-business-cards.jpg" alt="" fetchpriority="high" decoding="async">
+        <img class="hero-photo" src="./images/hero-02-handshake.jpg" alt="" loading="lazy" decoding="async">
+        <img class="hero-photo" src="./images/hero-03-connections-grow.jpg" alt="" loading="lazy" decoding="async">
+        <img class="hero-photo" src="./images/hero-04-team-planning.jpg" alt="" loading="lazy" decoding="async">
+        <img class="hero-photo" src="./images/hero-05-team-together.jpg" alt="" loading="lazy" decoding="async">
+      </div>
+      <div class="hero-wash" aria-hidden="true"></div>
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="wrap hero-inner">
+        <div class="hero-content">
+          <p class="branch-callout reveal">日本営業協会 <strong>関西支部</strong></p>
+          <p class="eyebrow hero-kicker reveal">Japan Sales Association / Kansai Branch</p>
+          <h1 id="hero-title" class="reveal kinetic-title"><span>七転び</span><span class="second">八起き</span></h1>
+          <p class="hero-copy reveal">名刺一枚から、仲間になる。<br>つながりが、次の挑戦を動かす。</p>
+          <div class="hero-actions reveal"><a class="button button-primary" href="#about">七転び八起き会を知る <span class="arrow">↗</span></a><a class="button button-line" href="#vision">活動構想を見る <span class="arrow">↗</span></a></div>
+        </div>
+        <div class="hero-side">
+          <div class="daruma-panel" role="img" aria-label="立体的な赤いだるまが左右、斜め、後ろ、前へ七度転んで起き上がるアニメーション。何度でも立ち上がるという七転び八起き会の思いを表現しています。">
+            <span class="daruma-eyebrow">The spirit of nanakorobi yaoki</span>
+            <div class="daruma-stage" aria-hidden="true">
+              <div class="daruma-rig">
+                <span class="daruma-depth daruma-depth-three"></span>
+                <span class="daruma-depth daruma-depth-two"></span>
+                <span class="daruma-depth daruma-depth-one"></span>
+              <svg class="daruma-figure" viewBox="0 0 220 240" xmlns="http://www.w3.org/2000/svg">
+                <defs><radialGradient id="daruma-red" cx=".23" cy=".19" r=".89"><stop stop-color="#ff9d6a"/><stop offset=".26" stop-color="#ee6549"/><stop offset=".61" stop-color="#d63e37"/><stop offset="1" stop-color="#8e2028"/></radialGradient><radialGradient id="daruma-gold" cx=".35" cy=".28" r=".86"><stop stop-color="#fffce8"/><stop offset=".62" stop-color="#fff0c8"/><stop offset="1" stop-color="#d8ac68"/></radialGradient></defs>
+                <path d="M110 12C60 12 28 55 24 111c-4 50-3 97 18 115 22 20 115 20 136 0 21-18 23-65 18-115C192 55 160 12 110 12Z" fill="url(#daruma-red)" stroke="#9f292d" stroke-width="4"/>
+                <path d="M52 78c10-30 26-45 46-52M36 112c-3 41 0 70 7 84" fill="none" stroke="#fff6d4" stroke-width="8" stroke-linecap="round" opacity=".27"/>
+                <path d="M169 59c19 27 23 63 20 102M175 186c-4 17-9 26-18 31" fill="none" stroke="#7e2025" stroke-width="10" stroke-linecap="round" opacity=".22"/>
+                <path d="M41 186c20 35 117 43 140 0" fill="none" stroke="#f59857" stroke-width="5" opacity=".7"/>
+                <ellipse cx="110" cy="99" rx="67" ry="72" fill="url(#daruma-gold)" stroke="#a73532" stroke-width="4"/>
+                <path d="M52 77c10-21 30-37 51-39M168 77c-10-21-30-37-51-39" fill="none" stroke="#b03831" stroke-width="10" stroke-linecap="round"/>
+                <path d="M69 84c12-8 25-7 34 2M117 86c9-9 22-10 34-2" fill="none" stroke="#282622" stroke-width="9" stroke-linecap="round"/>
+                <ellipse cx="83" cy="102" rx="11" ry="16" fill="#fffdf8"/><ellipse cx="137" cy="102" rx="11" ry="16" fill="#fffdf8"/><circle cx="86" cy="104" r="6" fill="#252320"/><circle cx="134" cy="104" r="6" fill="#252320"/>
+                <path d="M69 126c17 11 28 13 40 9M151 126c-17 11-28 13-40 9" fill="none" stroke="#2e2825" stroke-width="8" stroke-linecap="round"/><path d="M95 145c10 8 20 8 30 0" fill="none" stroke="#91332d" stroke-width="5" stroke-linecap="round"/>
+                <ellipse cx="110" cy="190" rx="52" ry="34" fill="#fff2cf" stroke="#efbb72" stroke-width="4"/><circle cx="110" cy="188" r="18" fill="none" stroke="#d8583d" stroke-width="4"/><path d="M94 188h32M110 172v32" stroke="#d8583d" stroke-width="3" stroke-linecap="round"/>
+                <path d="M47 168l17 9-16 8M173 168l-17 9 16 8" fill="#f6bd71" opacity=".9"/>
+              </svg>
+              </div>
+            </div>
+            <p class="daruma-name">七度転んでも、また立つ。</p>
+            <p class="daruma-status" id="daruma-status" aria-hidden="true">何度でも、前へ。</p>
+            <div class="fall-dots" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+          </div>
+        </div>
+        <div class="hero-bottom wrap">
+          <div class="slide-controls" role="group" aria-label="トップ写真の切り替え">
+            <span class="slide-label">SCENE <strong id="slide-current">01</strong> / 05</span>
+            <span class="slide-story" id="slide-story">名刺を交わす</span>
+            <div class="slide-dots"><button class="slide-dot is-active" type="button" data-slide="0" aria-label="写真1：名刺を交わす" aria-current="true"></button><button class="slide-dot" type="button" data-slide="1" aria-label="写真2：握手する"></button><button class="slide-dot" type="button" data-slide="2" aria-label="写真3：仲間が増える"></button><button class="slide-dot" type="button" data-slide="3" aria-label="写真4：ともに考える"></button><button class="slide-dot" type="button" data-slide="4" aria-label="写真5：チームで前へ"></button></div>
+            <button class="slide-toggle" type="button" aria-label="写真の自動切り替えを一時停止" aria-pressed="false">❚❚</button>
+          </div>
+          <span class="hero-photo-note">※写真はAI制作のイメージです</span>
+        </div>
+      </div>
+    </section>
+    <div class="ticker" aria-hidden="true"><div class="ticker-track"><span>挑戦する。<b>✦</b> つながる。<b>✦</b> また立ち上がる。<b>✦</b> NANAKOROBI YAOKI <b>✦</b></span><span>挑戦する。<b>✦</b> つながる。<b>✦</b> また立ち上がる。<b>✦</b> NANAKOROBI YAOKI <b>✦</b></span></div></div>
+    <section id="about" class="intro section-pad">
+      <div class="wrap"><div class="section-top reveal"><div><p class="eyebrow">01 / About</p><h2 class="kinetic-title">倒れた経験が<br>次の強さになる</h2></div><span class="section-number">01—04</span></div>
+        <div class="intro-grid"><p class="intro-lead reveal">営業は、<em>挑戦の連続</em>だ。<br>うまくいった日も、<br>立ち止まる日もある。<br>だから、仲間がいる。</p><div class="intro-body reveal"><p>七転び八起き会は、日本営業協会 関西支部の名前です。「七転び八起き」には、挑戦を続ける営業の人と企業を、関西からつなぎたいという思いを込めています。</p><p>日本営業協会が掲げる、営業の印象を変え、正しい知識やつながりを広げる方向性を受け継ぎながら、関西らしい熱量と行動力を形にしていきます。</p><span class="identity-tag"><span aria-hidden="true"></span> 日本営業協会 関西支部・七転び八起き会｜サイト構想</span></div></div>
+        <figure class="about-photo reveal"><img src="./images/about-morning.jpg" alt="朝の明るい都市を前向きに歩くビジネスパーソンのイメージ写真" loading="lazy" decoding="async"><figcaption>挑戦を続ける人へ — イメージ写真</figcaption></figure>
+      </div>
+    </section>
+    <section id="vision" class="manifesto section-pad">
+      <div class="wrap"><div class="section-top reveal"><div><p class="eyebrow">02 / Vision</p><h2 class="kinetic-title">ここから何を起こすか</h2></div><span class="section-number">02—04</span></div><div class="manifesto-grid">
+        <article class="pillar reveal"><span class="pillar-num">01 / CONNECT</span><span class="small-arrow" aria-hidden="true">↗</span><img class="pillar-photo" src="./images/connect-networking.jpg" alt="ビジネスパーソンが交流するイメージ写真" loading="lazy" decoding="async"><h3>出会いをつくる。</h3><p>業種や立場を越えてつながる。ひとつの会話から、新しい仕事や協力が生まれる場へ。</p></article>
+        <article class="pillar reveal"><span class="pillar-num">02 / LEARN</span><span class="small-arrow" aria-hidden="true">↗</span><img class="pillar-photo" src="./images/learn-workshop.jpg" alt="少人数で学びを共有するイメージ写真" loading="lazy" decoding="async"><h3>学びを深める。</h3><p>現場で使える知識を持ち寄る。営業を、もっと誇れる仕事にしていく場へ。</p></article>
+        <article class="pillar reveal"><span class="pillar-num">03 / MOVE</span><span class="small-arrow" aria-hidden="true">↗</span><img class="pillar-photo" src="./images/move-planning.jpg" alt="チームが次の行動を考えるイメージ写真" loading="lazy" decoding="async"><h3>行動につなげる。</h3><p>刺激を受けて終わらない。次の一歩を決め、挑戦を重ねていける場へ。</p></article>
+      </div><p class="concept-note">※活動内容はコンセプト案です。写真はAIで制作したイメージで、実際の会員や開催済みの行事を示すものではありません。</p></div>
+    </section>
+    <section class="statement" aria-label="七転び八起き会のメッセージ"><div class="wrap statement-row"><div class="reveal"><small>Our spirit</small><h2 class="kinetic-title">転んでも<br>前に進もう</h2></div><span class="statement-mark" aria-hidden="true">↗</span></div></section>
+    <section id="steps" class="journey section-pad"><div class="wrap"><div class="section-top reveal"><div><p class="eyebrow">03 / Experience</p><h2 class="kinetic-title">参加のイメージ</h2></div><span class="section-number">03—04</span></div><p class="journey-intro reveal">サイトを訪れた人が迷わず一歩を踏み出せるように。今後、実際の運営方法に合わせて、次の導線を具体化します。</p><div class="journey-line">
+      <article class="step reveal"><span class="step-dot"></span><span>STEP 01</span><h3>知る</h3><p>理念と活動を知り、七転び八起き会の雰囲気に触れる。</p></article>
+      <article class="step reveal"><span class="step-dot"></span><span>STEP 02</span><h3>見つける</h3><p>自分に合う交流、学び、協力の機会を見つける。</p></article>
+      <article class="step reveal"><span class="step-dot"></span><span>STEP 03</span><h3>つながる</h3><p>仲間や企業と出会い、最初の対話を始める。</p></article>
+      <article class="step reveal"><span class="step-dot"></span><span>STEP 04</span><h3>動き出す</h3><p>得た刺激を、次の挑戦や具体的な行動につなげる。</p></article>
+    </div></div></section>
+    <section id="updates" class="updates section-pad"><div class="wrap updates-layout"><div class="section-top reveal"><div><p class="eyebrow">04 / Updates</p><h2 class="kinetic-title">ここから<br>始まる</h2><p class="updates-intro">活動情報が決まり次第、イベント、お知らせ、会員の取り組みをこのエリアで紹介します。</p></div><span class="section-number">04—04</span></div><div class="reveal"><div class="updates-list"><div class="update"><span class="type">EVENT</span><h3>交流会・イベント情報</h3><span class="arrow" aria-hidden="true">↗</span></div><div class="update"><span class="type">NEWS</span><h3>関西支部からのお知らせ</h3><span class="arrow" aria-hidden="true">↗</span></div><div class="update"><span class="type">PEOPLE</span><h3>仲間と取り組みの紹介</h3><span class="arrow" aria-hidden="true">↗</span></div></div><p class="placeholder">掲載内容は準備中です。実際の記事や日付は、情報確認後に公開します。</p></div></div></section>
+    <section id="contact" class="closing">
+      <div class="closing-slides" aria-hidden="true">
+        <img class="closing-photo is-active" src="./images/closing-daylight.jpg" alt="" loading="lazy" decoding="async">
+        <img class="closing-photo" src="./images/closing-02-walking-together.jpg" alt="" loading="lazy" decoding="async">
+        <img class="closing-photo" src="./images/closing-03-handshake.jpg" alt="" loading="lazy" decoding="async">
+        <img class="closing-photo" src="./images/closing-04-team-future.jpg" alt="" loading="lazy" decoding="async">
+      </div>
+      <div class="closing-wash" aria-hidden="true"></div>
+      <div class="wrap">
+        <p class="eyebrow reveal">Japan Sales Association / Kansai Branch</p>
+        <h2 class="reveal kinetic-title">次の一歩を<br><span class="closing-accent">関西から</span></h2>
+        <p class="closing-copy reveal">日本営業協会 関西支部・七転び八起き会。活動内容・参加方法・お問い合わせ窓口が決まり次第、この場所からご案内します。</p>
+        <a class="button button-primary reveal" href="https://www.j-sa.jp/" target="_blank" rel="noopener noreferrer">日本営業協会 本部サイト <span class="arrow">↗</span></a>
+        <div class="closing-controls" role="group" aria-label="最後の写真の切り替え">
+          <span class="closing-count">SCENE <strong id="closing-current">01</strong> / 04</span>
+          <div class="closing-dots"><button class="closing-dot is-active" type="button" data-closing-slide="0" aria-label="最後の写真1：朝の街並み" aria-current="true"></button><button class="closing-dot" type="button" data-closing-slide="1" aria-label="最後の写真2：仲間と歩く"></button><button class="closing-dot" type="button" data-closing-slide="2" aria-label="最後の写真3：握手でつながる"></button><button class="closing-dot" type="button" data-closing-slide="3" aria-label="最後の写真4：チームで次へ"></button></div>
+          <button class="closing-toggle" type="button" aria-label="最後の写真の自動切り替えを一時停止" aria-pressed="false">❚❚</button>
+        </div>
+        <p class="closing-photo-note">※写真はAI制作のイメージです</p>
+        <footer class="foot"><div><strong>七転び八起き会</strong><small>日本営業協会 関西支部｜コンセプト第11版</small></div><nav class="foot-links" aria-label="フッターメニュー"><a href="#top">ページ上部へ ↑</a><a href="https://www.j-sa.jp/" target="_blank" rel="noopener noreferrer">日本営業協会 本部 ↗</a></nav></footer>
+      </div>
+    </section>
+  </main>
+  <div class="draft-label">Concept draft / v1.1</div>
+  <div class="cursor-daruma cursor-daruma-large" id="cursor-daruma" aria-hidden="true">
+    <svg viewBox="0 0 72 80" xmlns="http://www.w3.org/2000/svg">
+      <defs><radialGradient id="cursor-red" cx=".28" cy=".18" r=".95"><stop stop-color="#ffae76"/><stop offset=".30" stop-color="#e85c42"/><stop offset=".7" stop-color="#c83d36"/><stop offset="1" stop-color="#88242d"/></radialGradient><radialGradient id="cursor-cream" cx=".35" cy=".26" r=".85"><stop stop-color="#fffdf0"/><stop offset="1" stop-color="#e9c987"/></radialGradient></defs>
+      <path d="M36 3C17 3 7 20 6 41 5 59 8 71 15 75c8 5 34 5 42 0 7-4 10-16 9-34C65 20 55 3 36 3Z" fill="url(#cursor-red)" stroke="#982d2b" stroke-width="2"/>
+      <path d="M15 30C18 18 25 11 32 9" fill="none" stroke="#fff7d7" stroke-width="3" stroke-linecap="round" opacity=".58"/>
+      <ellipse cx="36" cy="36" rx="21" ry="23" fill="url(#cursor-cream)" stroke="#aa3f31" stroke-width="1.7"/>
+      <path d="M20 31c4-4 9-4 13-1m6 0c4-3 9-3 13 1" fill="none" stroke="#3a2927" stroke-width="3.6" stroke-linecap="round"/>
+      <circle cx="27" cy="39" r="2.7" fill="#302928"/><circle cx="45" cy="39" r="2.7" fill="#302928"/>
+      <path d="M27 47c6 5 12 5 18 0" fill="none" stroke="#6d3029" stroke-width="2.8" stroke-linecap="round"/>
+      <ellipse cx="36" cy="62" rx="17" ry="10" fill="#fff0c4" stroke="#dfae68" stroke-width="1.6"/>
+      <circle cx="36" cy="61" r="5" fill="none" stroke="#d24e3b" stroke-width="1.7"/><path d="M31 61h10M36 56v10" stroke="#d24e3b" stroke-width="1.3"/>
+    </svg>
+  </div>
+  <script>
+    (()=>{
+      document.querySelectorAll('.kinetic-title').forEach(title=>{
+        title.setAttribute('aria-label',title.textContent.replace(/\s+/g,''));
+        const walker=document.createTreeWalker(title,NodeFilter.SHOW_TEXT);
+        const textNodes=[];
+        while(walker.nextNode())textNodes.push(walker.currentNode);
+        let index=0;
+        textNodes.forEach(node=>{
+          if(!node.textContent.trim())return;
+          const fragment=document.createDocumentFragment();
+          for(const character of Array.from(node.textContent)){
+            const letter=document.createElement('span');
+            letter.className='title-char';
+            letter.setAttribute('aria-hidden','true');
+            letter.style.setProperty('--i',String(index++));
+            letter.textContent=character;
+            fragment.appendChild(letter);
+          }
+          node.replaceWith(fragment);
+        });
+      });
+      const menuButton=document.querySelector('.menu-button');
+      const nav=document.querySelector('#site-nav');
+      menuButton.addEventListener('click',()=>{const open=nav.classList.toggle('open');menuButton.setAttribute('aria-expanded',String(open));menuButton.setAttribute('aria-label',open?'メニューを閉じる':'メニューを開く');menuButton.textContent=open?'CLOSE ×':'MENU ☰';});
+      nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');menuButton.setAttribute('aria-expanded','false');menuButton.setAttribute('aria-label','メニューを開く');menuButton.textContent='MENU ☰';}));
+      const items=[...document.querySelectorAll('.reveal')];
+      if('IntersectionObserver' in window){const observer=new IntersectionObserver(entries=>{entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('is-visible');observer.unobserve(entry.target);}})},{threshold:.08});items.forEach(item=>observer.observe(item));}else{items.forEach(item=>item.classList.add('is-visible'));}
+      const motionOK=!window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      const photos=[...document.querySelectorAll('.hero-photo')];
+      const slideButtons=[...document.querySelectorAll('.slide-dot')];
+      const slideToggle=document.querySelector('.slide-toggle');
+      const slideCurrent=document.querySelector('#slide-current');
+      const slideStory=document.querySelector('#slide-story');
+      const slideStories=['名刺を交わす','握手する','仲間が増える','ともに考える','チームで前へ'];
+      let slideIndex=0;
+      let slideTimer;
+      let slidePaused=!motionOK;
+      const showSlide=index=>{
+        slideIndex=(index+photos.length)%photos.length;
+        photos.forEach((photo,i)=>photo.classList.toggle('is-active',i===slideIndex));
+        slideButtons.forEach((button,i)=>{
+          button.classList.toggle('is-active',i===slideIndex);
+          if(i===slideIndex)button.setAttribute('aria-current','true');
+          else button.removeAttribute('aria-current');
+        });
+        slideCurrent.textContent=String(slideIndex+1).padStart(2,'0');
+        slideStory.textContent=slideStories[slideIndex];
+      };
+      const restartSlides=()=>{
+        clearInterval(slideTimer);
+        if(!slidePaused&&!document.hidden)slideTimer=setInterval(()=>showSlide(slideIndex+1),5200);
+      };
+      slideButtons.forEach(button=>button.addEventListener('click',()=>{showSlide(Number(button.dataset.slide));restartSlides();}));
+      slideToggle.addEventListener('click',()=>{
+        slidePaused=!slidePaused;
+        slideToggle.textContent=slidePaused?'▶':'❚❚';
+        slideToggle.setAttribute('aria-label',slidePaused?'写真の自動切り替えを再開':'写真の自動切り替えを一時停止');
+        slideToggle.setAttribute('aria-pressed',String(slidePaused));
+        restartSlides();
+      });
+      document.addEventListener('visibilitychange',restartSlides);
+      restartSlides();
+      const closingPhotos=[...document.querySelectorAll('.closing-photo')];
+      const closingButtons=[...document.querySelectorAll('.closing-dot')];
+      const closingToggle=document.querySelector('.closing-toggle');
+      const closingCurrent=document.querySelector('#closing-current');
+      let closingIndex=0;
+      let closingTimer;
+      let closingPaused=!motionOK;
+      const showClosingSlide=index=>{
+        closingIndex=(index+closingPhotos.length)%closingPhotos.length;
+        closingPhotos.forEach((photo,i)=>photo.classList.toggle('is-active',i===closingIndex));
+        closingButtons.forEach((button,i)=>{
+          button.classList.toggle('is-active',i===closingIndex);
+          if(i===closingIndex)button.setAttribute('aria-current','true');
+          else button.removeAttribute('aria-current');
+        });
+        closingCurrent.textContent=String(closingIndex+1).padStart(2,'0');
+      };
+      const restartClosing=()=>{
+        clearInterval(closingTimer);
+        if(!closingPaused&&!document.hidden)closingTimer=setInterval(()=>showClosingSlide(closingIndex+1),5100);
+      };
+      closingButtons.forEach(button=>button.addEventListener('click',()=>{showClosingSlide(Number(button.dataset.closingSlide));restartClosing();}));
+      closingToggle.addEventListener('click',()=>{
+        closingPaused=!closingPaused;
+        closingToggle.textContent=closingPaused?'▶':'❚❚';
+        closingToggle.setAttribute('aria-label',closingPaused?'最後の写真の自動切り替えを再開':'最後の写真の自動切り替えを一時停止');
+        closingToggle.setAttribute('aria-pressed',String(closingPaused));
+        restartClosing();
+      });
+      document.addEventListener('visibilitychange',restartClosing);
+      restartClosing();
+      const daruma=document.querySelector('.daruma-rig');
+      const darumaStatus=document.querySelector('#daruma-status');
+      const fallDots=[...document.querySelectorAll('.fall-dots span')];
+      const falls=[
+        {pose:'fall-left',label:'左へ'},
+        {pose:'fall-right',label:'右へ'},
+        {pose:'fall-back',label:'後ろへ'},
+        {pose:'fall-back-left',label:'左斜め後ろへ'},
+        {pose:'fall-back-right',label:'右斜め後ろへ'},
+        {pose:'fall-front',label:'前へ'},
+        {pose:'fall-back-deep',label:'もう一度、後ろへ'}
+      ];
+      const fallClasses=falls.map(fall=>fall.pose);
+      if(motionOK){
+        const sleep=ms=>new Promise(resolve=>setTimeout(resolve,ms));
+        const playDaruma=async()=>{
+          while(true){
+            for(let count=1;count<=7;count++){
+              while(document.hidden)await sleep(450);
+              const fall=falls[count-1];
+              darumaStatus.textContent=`${count}回目。${fall.label}転んでも、起きる。`;
+              daruma.dataset.fall=String(count);
+              daruma.classList.remove('rise',...fallClasses);
+              await sleep(60);
+              daruma.classList.add(fall.pose);
+              await sleep(680);
+              daruma.classList.remove(fall.pose);
+              daruma.classList.add('rise');
+              fallDots[count-1].classList.add('done');
+              await sleep(960);
+            }
+            darumaStatus.textContent='七度転んでも、また立つ。';
+            await sleep(1800);
+            fallDots.forEach(dot=>dot.classList.remove('done'));
+            darumaStatus.textContent='何度でも、前へ。';
+            daruma.dataset.fall='0';
+            await sleep(1200);
+          }
+        };
+        playDaruma();
+      }else{fallDots.forEach(dot=>dot.classList.add('done'));darumaStatus.textContent='七度転んでも、また立つ。';}
+      if(motionOK&&window.matchMedia('(pointer:fine)').matches){
+        const companion=document.querySelector('#cursor-daruma');
+        const makeFollower=size=>{
+          const clone=companion.cloneNode(true);
+          clone.id=`cursor-daruma-${size}`;
+          clone.classList.remove('cursor-daruma-large');
+          clone.classList.add(`cursor-daruma-${size}`);
+          clone.innerHTML=clone.innerHTML.replaceAll('cursor-red',`cursor-red-${size}`).replaceAll('cursor-cream',`cursor-cream-${size}`);
+          document.body.appendChild(clone);
+          return clone;
+        };
+        const followers=[
+          {element:companion,x:0,y:0,tilt:0,ease:.24,offsetX:0,offsetY:0},
+          {element:makeFollower('medium'),x:0,y:0,tilt:0,ease:.16,offsetX:-32,offsetY:23},
+          {element:makeFollower('small'),x:0,y:0,tilt:0,ease:.12,offsetX:-23,offsetY:18}
+        ];
+        let targetX=0,targetY=0,started=false,frame=0,lastPointer=0;
+        const animateCompanion=now=>{
+          frame=0;
+          let moving=false;
+          followers.forEach((follower,index)=>{
+            const ahead=followers[index-1];
+            const aimX=index ? ahead.x+follower.offsetX : targetX;
+            const aimY=index ? ahead.y+follower.offsetY : targetY;
+            follower.x+=(aimX-follower.x)*follower.ease;
+            follower.y+=(aimY-follower.y)*follower.ease;
+            const desiredTilt=Math.max(-32,Math.min(32,(aimX-follower.x)*.8));
+            follower.tilt+=(desiredTilt-follower.tilt)*.18;
+            const distance=Math.hypot(aimX-follower.x,aimY-follower.y);
+            const bounce=Math.min(distance*.045,3)*Math.sin(now/95+index*.9);
+            follower.element.style.transform=`translate3d(${follower.x.toFixed(1)}px,${(follower.y+bounce).toFixed(1)}px,0) translate(-50%,-50%) rotate(${follower.tilt.toFixed(1)}deg)`;
+            if(distance>.35||Math.abs(follower.tilt)>.35)moving=true;
+          });
+          if(now-lastPointer<700||moving)frame=requestAnimationFrame(animateCompanion);
+        };
+        document.addEventListener('pointermove',event=>{
+          if(event.pointerType&&event.pointerType!=='mouse'&&event.pointerType!=='pen')return;
+          targetX=event.clientX+29;
+          targetY=event.clientY+22;
+          if(!started){
+            followers.forEach((follower,index)=>{
+              const ahead=followers[index-1];
+              follower.x=index ? ahead.x+follower.offsetX : targetX;
+              follower.y=index ? ahead.y+follower.offsetY : targetY;
+            });
+            started=true;
+          }
+          lastPointer=performance.now();
+          const overLink=Boolean(event.target.closest?.('a,button'));
+          followers.forEach(({element})=>{
+            element.classList.add('is-visible');
+            element.classList.toggle('is-over-link',overLink);
+          });
+          if(!frame)frame=requestAnimationFrame(animateCompanion);
+        },{passive:true});
+        const hideFollowers=()=>followers.forEach(({element})=>element.classList.remove('is-visible'));
+        document.addEventListener('pointerout',event=>{if(!event.relatedTarget)hideFollowers();});
+        window.addEventListener('blur',hideFollowers);
+      }
+    })();
+  </script>
+</body>
+</html>
